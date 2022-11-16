@@ -1,0 +1,109 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #FFFFFF;
+}
+.titre{
+    font-family: 'Bebas Neue', cursive;
+    font-style: normal;
+font-weight: 600;
+font-size: 50px;
+line-height: 60px;
+    color: #1D2B4F !important;
+}
+.ptitre{
+    font-family: 'Bebas Neue', cursive;
+    color: #1D2B4F !important;
+}
+.stitle{
+   
+    color: #1D2B4F !important;
+}
+.paragra{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 28px;
+}
+#nav-bar{
+    background-image: url('background.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* height: 800px; */
+}
+.banner .title{
+   
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 60px;
+    
+    color: #1D2B4F;
+}
+.sister img{
+    width: 45x;
+    height: 55px;
+
+
+}
+.topou img{
+    width: 79px;
+height: 67.29px;
+}
+.topou{
+        background-image: url('Design\ element\ -\ pink.png'), url('Design element - Circles.png');
+    background-position: center, bottom center;
+    background-repeat: no-repeat, no-repeat;
+    background-size: 45%, 25%;
+}
+#CHOOSE{
+        background-image: url('Ellipse\ 410.png');
+    background-position: top left;
+    background-repeat: no-repeat;
+    background-size: 5% ;
+}
+.doctor img{
+   
+height: 325px;
+}
+.doctor{
+    background-image: url('greencircle.png'), url('bgforcicle.png');
+    background-repeat:  no-repeat, no-repeat;
+    background-position:top right,bottom left ;
+   
+    
+}
+#TEMOINS{
+    background-image: url('Ellipsetemoins.png');
+    background-position: top right;
+    background-repeat: no-repeat;
+    background-size: 15% ;
+    
+}
+.tt{
+    background-image: url('Circletemoins.png');
+    /* background-position: top center; */
+    background-repeat: no-repeat;
+    background-size: 15% ;
+    background-position-x: 72%;
+}
+.fa-plus{
+    color: black;
+    font-size: 15px !important;
+
+   
+}
+#footer{
+    background-image: url('bgfinal.png'), url('last.png');
+    background-position: left bottom,bottom center ;
+    background-repeat: no-repeat;
+    background-size: 45%, 20%;
+    background-position-x: 0%, 75%;
+}
