@@ -32,7 +32,7 @@ font-size: 16px;
 line-height: 28px;
 }
 #nav-bar{
-    background-image: url('background.png');
+    background-image: url('./img/background.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -58,13 +58,13 @@ line-height: 28px;
 height: 67.29px;
 }
 .topou{
-        background-image: url('Design\ element\ -\ pink.png'), url('Design element - Circles.png');
+        background-image: url('./img/Design\ element\ -\ pink.png'), url('Design element - Circles.png');
     background-position: center, bottom center;
     background-repeat: no-repeat, no-repeat;
     background-size: 45%, 25%;
 }
 #CHOOSE{
-        background-image: url('Ellipse\ 410.png');
+        background-image: url('./img/Ellipse\ 410.png');
     background-position: top left;
     background-repeat: no-repeat;
     background-size: 5% ;
@@ -74,21 +74,21 @@ height: 67.29px;
 height: 325px;
 }
 .doctor{
-    background-image: url('greencircle.png'), url('bgforcicle.png');
+    background-image: url('./img/greencircle.png'), url('./img/bgforcicle.png');
     background-repeat:  no-repeat, no-repeat;
     background-position:top right,bottom left ;
    
     
 }
 #TEMOINS{
-    background-image: url('Ellipsetemoins.png');
+    background-image: url('./img/Ellipsetemoins.png');
     background-position: top right;
     background-repeat: no-repeat;
     background-size: 15% ;
     
 }
 .tt{
-    background-image: url('Circletemoins.png');
+    background-image: url('./img/Circletemoins.png');
     /* background-position: top center; */
     background-repeat: no-repeat;
     background-size: 15% ;
@@ -101,7 +101,7 @@ height: 325px;
    
 }
 #footer{
-    background-image: url('bgfinal.png'), url('last.png');
+    background-image: url('./img/bgfinal.png'), url('./img/last.png');
     background-position: left bottom,bottom center ;
     background-repeat: no-repeat;
     background-size: 45%, 20%;
