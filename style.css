@@ -1,109 +1,108 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+/* Custom style */
+.accordion-button::after {
+  background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 16 16' fill='%23333' xmlns='http://www.w3.org/2000/svg'%3e%3cpath fill-rule='evenodd' d='M8 0a1 1 0 0 1 1 1v6h6a1 1 0 1 1 0 2H9v6a1 1 0 1 1-2 0V9H1a1 1 0 0 1 0-2h6V1a1 1 0 0 1 1-1z' clip-rule='evenodd'/%3e%3c/svg%3e");
+  transform: scale(0.7) !important;
+}
+.accordion-button:not(.collapsed)::after {
+  background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 16 16' fill='%23333' xmlns='http://www.w3.org/2000/svg'%3e%3cpath fill-rule='evenodd' d='M0 8a1 1 0 0 1 1-1h14a1 1 0 1 1 0 2H1a1 1 0 0 1-1-1z' clip-rule='evenodd'/%3e%3c/svg%3e");
 }
 
-body{
-    background: #FFFFFF;
+body {
+  background: #ffffff;
 }
-.titre{
-    font-family: 'Bebas Neue', cursive;
-    font-style: normal;
-font-weight: 600;
-font-size: 50px;
-line-height: 60px;
-    color: #1D2B4F !important;
+.titre {
+  font-family: "Bebas Neue", cursive;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 50px;
+  line-height: 60px;
+  color: #1d2b4f !important;
 }
-.ptitre{
-    font-family: 'Bebas Neue', cursive;
-    color: #1D2B4F !important;
+.ptitre {
+  font-family: "Bebas Neue", cursive;
+  color: #1d2b4f !important;
 }
-.stitle{
-   
-    color: #1D2B4F !important;
+.stitle {
+  color: #1d2b4f !important;
 }
-.paragra{
-    font-family: 'Open Sans', sans-serif;
-    font-family: 'Open Sans';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 28px;
+.paragra {
+  font-family: "Open Sans", sans-serif;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
 }
-#nav-bar{
-    background-image: url('./img/Background.png');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    /* height: 800px; */
+#nav-bar {
+  background-image: url("./img/Background.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* height: 800px; */
 }
-.banner .title{
-   
-    font-style: normal;
-    font-weight: 600;
-    font-size: 50px;
-    line-height: 60px;
-    
-    color: #1D2B4F;
-}
-.sister img{
-    width: 45x;
-    height: 55px;
+.banner .title {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 50px;
+  line-height: 60px;
 
-
+  color: #1d2b4f;
 }
-.topou img{
-    width: 79px;
-height: 67.29px;
+.sister img {
+  width: 45x;
+  height: 55px;
 }
-.topou{
-        background-image: url('./img/Design\ element\ -\ pink.png'), url('Design element - Circles.png');
-    background-position: center, bottom center;
-    background-repeat: no-repeat, no-repeat;
-    background-size: 45%, 25%;
+.topou img {
+  width: 79px;
+  height: 67.29px;
 }
-#CHOOSE{
-        background-image: url('./img/Ellipse\ 410.png');
-    background-position: top left;
-    background-repeat: no-repeat;
-    background-size: 5% ;
+.topou {
+  background-image: url("./img/Design\ element\ -\ pink.png"),
+    url("Design element - Circles.png");
+  background-position: center, bottom center;
+  background-repeat: no-repeat, no-repeat;
+  background-size: 45%, 25%;
 }
-.doctor img{
-   
-height: 325px;
+#CHOOSE {
+  background-image: url("./img/Ellipse\ 410.png");
+  background-position: top left;
+  background-repeat: no-repeat;
+  background-size: 5%;
 }
-.doctor{
-    background-image: url('./img/greencircle.png'), url('./img/bgforcicle.png');
-    background-repeat:  no-repeat, no-repeat;
-    background-position:top right,bottom left ;
-   
-    
+.doctor img {
+  height: 325px;
 }
-#TEMOINS{
-    background-image: url('./img/Ellipsetemoins.png');
-    background-position: top right;
-    background-repeat: no-repeat;
-    background-size: 15% ;
-    
+.doctor {
+  background-image: url("./img/greencircle.png"), url("./img/bgforcicle.png");
+  background-repeat: no-repeat, no-repeat;
+  background-position: top right, bottom left;
 }
-.tt{
-    background-image: url('./img/Circletemoins.png');
-    /* background-position: top center; */
-    background-repeat: no-repeat;
-    background-size: 15% ;
-    background-position-x: 72%;
+#TEMOINS {
+  background-image: url("./img/Ellipsetemoins.png");
+  background-position: top right;
+  background-repeat: no-repeat;
+  background-size: 15%;
 }
-.fa-plus{
-    color: black;
-    font-size: 15px !important;
-
-   
+.tt {
+  background-image: url("./img/Circletemoins.png");
+  /* background-position: top center; */
+  background-repeat: no-repeat;
+  background-size: 15%;
+  background-position-x: 72%;
 }
-#footer{
-    background-image: url('./img/bgfinal.png'), url('./img/last.png');
-    background-position: left bottom,bottom center ;
-    background-repeat: no-repeat;
-    background-size: 45%, 20%;
-    background-position-x: 0%, 75%;
+.fa-plus {
+  color: black;
+  font-size: 15px !important;
+}
+#footer {
+  background-image: url("./img/bgfinal.png"), url("./img/last.png");
+  background-position: left bottom, bottom center;
+  background-repeat: no-repeat;
+  background-size: 45%, 20%;
+  background-position-x: 0%, 75%;
 }
